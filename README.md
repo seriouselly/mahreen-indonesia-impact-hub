@@ -47,10 +47,10 @@ Buka URL yang ditampilkan Vite, biasanya `http://localhost:5173`.
 ```text
 src/
 ├── .github/
-│      └── workflows
-│       	└── deploy.yml     # Robot deploy
-├── assets/                    # Asset gambar dan logo
-├── components/                # Komponen section dan UI
+│   └── workflows
+│       └── deploy.yml			# Robot deploy
+├── assets/                    	# Asset gambar dan logo
+├── components/                	# Komponen section dan UI
 │   ├── About.jsx
 │   ├── CategoryCard.jsx
 │   ├── EcosystemSection.jsx
