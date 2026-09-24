@@ -46,26 +46,25 @@ Buka URL yang ditampilkan Vite, biasanya `http://localhost:5173`.
 
 ```text
 src/
+├── assets/                    # Asset gambar dan logo
+├── components/                # Komponen section dan UI
+│   ├── About.jsx
+│   ├── CategoryCard.jsx
+│   ├── EcosystemSection.jsx
+│   ├── FinalCTA.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── ImpactJourney.jsx
+│   ├── ImpactQuiz.jsx
+│   ├── Navbar.jsx
+│   ├── OpportunityCard.jsx
+│   ├── OpportunityFinder.jsx
+│   └── OpportunityModal.jsx
+└── data/
+    └── opportunities.js       # Data kategori, opportunity, dan quiz
 ├── App.jsx                    # Komposisi halaman utama
 ├── index.css                  # Global reset, token, animasi, dan styling dasar
 ├── main.jsx                   # Entry point React
-├── src
-    ├── assets/                    # Asset gambar dan logo
-    ├── components/                # Komponen section dan UI
-    │   ├── About.jsx
-    │   ├── CategoryCard.jsx
-    │   ├── EcosystemSection.jsx
-    │   ├── FinalCTA.jsx
-    │   └── Footer.jsx
-    │   ├── Hero.jsx
-    │   ├── ImpactJourney.jsx
-    │   ├── ImpactQuiz.jsx
-    │   ├── Navbar.jsx
-    │   ├── OpportunityCard.jsx
-    │   ├── OpportunityFinder.jsx
-    │   ├── OpportunityModal.jsx
-    └── data/
-        └── opportunities.js       # Data kategori, opportunity, dan quiz
 ```
 
 ## Mengubah Data Opportunity
