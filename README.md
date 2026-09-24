@@ -88,6 +88,16 @@ Data kategori, kartu opportunity, dan pertanyaan quiz berada di [src/data/opport
 
 Project ini merupakan prototype frontend. Belum terdapat backend, autentikasi, database, atau integrasi pendaftaran opportunity.
 
+## Deploy ke GitHub Pages
+
+Project sudah memiliki workflow GitHub Actions di `.github/workflows/deploy.yml` yang akan menjalankan build dan deploy otomatis setiap ada push ke branch `main`.
+
+Di repository GitHub, buka **Settings → Pages**, lalu pilih **GitHub Actions** sebagai source deployment. Setelah workflow berhasil, website dapat diakses di:
+
+```text
+https://seriouselly.github.io/mahreen-indonesia-impact-hub/
+```
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
