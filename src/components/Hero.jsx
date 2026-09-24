@@ -62,8 +62,8 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-        <span className="text-white/30 text-md tracking-widest uppercase">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce">
+        <span className="text-white/80 text-md tracking-widest uppercase">
           Scroll
         </span>
         <svg
@@ -71,7 +71,7 @@ export default function Hero() {
           height="16"
           viewBox="0 0 16 16"
           fill="none"
-          className="text-white/30"
+          className="text-white/80"
         >
           <path
             d="M8 3L8 13M8 13L4 9M8 13L12 9"
