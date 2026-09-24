@@ -11,7 +11,7 @@ export default function OpportunityCard({ opportunity, onViewDetails }) {
   const accent = ACCENT_COLORS[opportunity.category] || "#C9A84C";
 
   return (
-    <article className="group relative flex min-h-[330px] flex-col p-4 rounded-2xl border border-white/8 bg-white/2.5 hover:bg-white/6hover:border-white/20 transition-all duration-300 hover:-translate-y-1">
+    <article className="group relative flex min-h-full flex-col gap-2 p-8 rounded-2xl border border-white/8 bg-white/2.5 hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:-translate-y-1 cursor-pointer">
       {/* Category badge */}
       <div className="flex items-center gap-2 mb-4">
         <span
