@@ -111,7 +111,7 @@ export default function ImpactQuiz({ setActiveCategory }) {
     <section
       id="impact-path"
       ref={sectionRef}
-      className="relative py-16 px-4 sm:py-20"
+      className="relative py-16 px-4 sm:py-14 overflow-hidden"
     >
       {/* Subtle divider */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-linear-to-b from-transparent to-white/8" />
@@ -119,20 +119,20 @@ export default function ImpactQuiz({ setActiveCategory }) {
       <div className="max-w-2xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12">
-          <p className="reveal text-[#38bdf8] text-md font-medium tracking-widest uppercase mb-4">
+          <p className="reveal visible text-[#38bdf8] text-md font-medium tracking-widest uppercase mb-4">
             Temukan Jalur Dampakmu
           </p>
-          <h2 className="reveal font-serif text-[clamp(2rem,5vw,3.5rem)] font-light text-white leading-tight mb-4">
+          <h2 className="reveal visible font-serif text-[clamp(2rem,5vw,3.5rem)] font-light text-white leading-tight mb-4">
             Yang Mana yang Cocok untukmu?
           </h2>
-          <p className="reveal text-white/50 text-base max-w-lg mx-auto leading-relaxed">
+          <p className="reveal visible text-white/50 text-base max-w-lg mx-auto leading-relaxed">
             Belum tahu harus mulai dari mana? Jawab beberapa pertanyaan
             sederhana dan temukan ruang yang bisa kamu eksplorasi.
           </p>
         </div>
 
         {/* Quiz card */}
-        <div className="reveal border border-white/10 rounded-2xl bg-[#111113]/80 shadow-[0_24px_80px_rgba(0,0,0,0.2)] overflow-hidden">
+        <div className="reveal visible border border-white/10 rounded-2xl bg-[#111113]/80 shadow-[0_24px_80px_rgba(0,0,0,0.2)] overflow-hidden">
           {/* Progress bar */}
           {(isQuestion || step === 5) && (
             <div className="h-px bg-white/8">
@@ -172,13 +172,13 @@ export default function ImpactQuiz({ setActiveCategory }) {
             {isQuestion && currentQuestion && (
               <div>
                 <div className="flex items-center justify-between mb-8">
-                  <span className="text-white/30 text-md font-medium tracking-widest uppercase">
+                  <span className="text-white/80 text-md font-medium tracking-widest uppercase">
                     Pertanyaan {step} dari {QUIZ_QUESTIONS.length}
                   </span>
-                  {step > 1 && (
+                  {isQuestion && (
                     <button
                       onClick={handleBack}
-                      className="text-white/30 hover:text-white/60 text-md transition-colors flex items-center gap-2"
+                      className="text-white/80 hover:text-white/80 text-md transition-colors flex items-center gap-2"
                     >
                       <svg
                         width="12"
