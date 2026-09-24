@@ -52,7 +52,7 @@ export default function Navbar() {
             <img
               src={mahreenLogo}
               alt="Mahreen Indonesia"
-              className="w-full h-20 object-contain"
+              className="h-10 w-auto object-contain sm:h-11"
             />
           </a>
 

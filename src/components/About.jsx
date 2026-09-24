@@ -33,7 +33,7 @@ export default function About() {
     <section id="about" ref={sectionRef} className="relative py-24 px-4">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-gradient-to-b from-transparent to-white/8" />
 
-      <div className="max-w-6xl mx-auto">
+      <div className="site-container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: text */}
           <div>

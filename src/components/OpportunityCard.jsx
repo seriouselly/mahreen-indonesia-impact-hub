@@ -11,7 +11,7 @@ export default function OpportunityCard({ opportunity, onViewDetails }) {
   const accent = ACCENT_COLORS[opportunity.category] || "#C9A84C";
 
   return (
-    <article className="group relative flex min-h-82.5 flex-col p-4 rounded-2xl border border-white/8 bg-white/2.5 hover:bg-white/6 hover:border-white/20 transition-all duration-300 hover:-translate-y-1">
+    <article className="group relative flex min-h-[330px] flex-col p-4 rounded-2xl border border-white/8 bg-white/2.5 hover:bg-white/6hover:border-white/20 transition-all duration-300 hover:-translate-y-1">
       {/* Category badge */}
       <div className="flex items-center gap-2 mb-4">
         <span
@@ -23,7 +23,10 @@ export default function OpportunityCard({ opportunity, onViewDetails }) {
       </div>
 
       {/* Title */}
-      <h3 className="text-white font-semibold text-[25px] mb-2 leading-snug group-hover:text-white transition-colors" style={{ fontFamily: "var(--font-serif)" }} > 
+      <h3
+        className="text-white font-semibold text-[25px] mb-2 leading-snug group-hover:text-white transition-colors"
+        style={{ fontFamily: "var(--font-serif)" }}
+      >
         {opportunity.title}
       </h3>
 
@@ -47,7 +50,8 @@ export default function OpportunityCard({ opportunity, onViewDetails }) {
       {/* CTA */}
       <button
         onClick={() => onViewDetails(opportunity)}
-        className="w-full py-2.5 rounded-xl border border-white/12 text-black text-sm font-semibold hover:border-white/25 transition-all duration-200 group-hover:border-white/20" style={{ backgroundColor: accent }}
+        className="w-full py-2.5 rounded-xl border border-white/12 text-black text-sm font-semibold hover:border-white/25 transition-all duration-200 group-hover:border-white/20"
+        style={{ backgroundColor: accent }}
       >
         Lihat Detail →
       </button>

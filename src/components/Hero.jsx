@@ -55,7 +55,7 @@ export default function Hero() {
       >
         <button
           onClick={() => handleScroll("#explore")}
-          className="px-8 py-3.5 rounded-full bg-[#c9a84c] text-[#0a0a0b] text-lg font-semibold hover:bg-[#d4b560] hover:scale-105 active:scale-95 transition-all duration-200 min-w-45"
+          className="px-8 py-3.5 rounded-full bg-[#c9a84c] text-[#0a0a0b] text-lg font-semibold hover:bg-[#d4b560] hover:scale-105 active:scale-95 transition-all duration-200 min-w-[11.25rem]"
         >
           Mulai Jelajahi Dampakmu
         </button>

@@ -50,7 +50,7 @@ function handleNavClick(e, href) {
 export default function Footer() {
   return (
     <footer className="relative border-t border-white/8 bg-[#0a0a0b]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 pt-5 pb-4">
+      <div className="site-container pt-8 pb-6">
         {/* Top grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-4">
           {/* Brand */}
@@ -58,7 +58,7 @@ export default function Footer() {
             <img
               src={mahreenLogo}
               alt="Mahreen Indonesia"
-              className="h-10 w-30 object-contain mb-"
+              className="h-10 w-auto object-contain mb-4"
             />
             <p className="text-white/35 text-sm leading-relaxed max-w-xs">
               Ekosistem yang menghubungkan anak muda dengan ruang untuk
@@ -81,7 +81,7 @@ export default function Footer() {
 
           {/* Quick nav */}
           <div>
-            <h3 className="text-white/50 text-xs font-extrabold tracking-widest uppercase pl-25 mb-5">
+            <h3 className="text-white/50 text-xs font-extrabold tracking-widest uppercase mb-5">
               Navigasi
             </h3>
             <ul className="grid grid-cols-2 gap-x-8 gap-y-2.5">

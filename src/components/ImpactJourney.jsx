@@ -60,13 +60,17 @@ export default function ImpactJourney() {
   }, []);
 
   return (
-    <section id="impact-journey" ref={sectionRef} className="relative py-38 px-4 overflow-hidden cursor-default">
+    <section
+      id="impact-journey"
+      ref={sectionRef}
+      className="relative py-24 px-4 sm:py-28 overflow-hidden cursor-default"
+    >
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-linear-to-b from-transparent to-white/8" />
 
       {/* Faint section background */}
       <div className="absolute inset-0 bg-linear-to-b from-transparent via-white/1 to-transparent pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto">
+      <div className="site-container">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="reveal text-[#c9a84c] text-md font-medium tracking-widest uppercase mb-4">
@@ -76,7 +80,8 @@ export default function ImpactJourney() {
             className="reveal font-serif text-[clamp(2rem,5vw,3.5rem)] font-light text-white leading-tight"
             style={{ fontFamily: "var(--font-serif)" }}
           >
-            Dari Belajar ke Berkarya, <br/>Hingga Menciptakan Dampak
+            Dari Belajar ke Berkarya, <br />
+            Hingga Menciptakan Dampak
           </h2>
         </div>
 

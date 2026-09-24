@@ -57,7 +57,7 @@ export default function OpportunityFinder({
     >
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-20 bg-linear-to-b from-transparent to-white/8" />
 
-      <div className="max-w-7xl mx-auto">
+      <div className="site-container">
         {/* Section header */}
         <div className="text-center mb-12">
           <p className="reveal text-[#38bdf8] text-md font-medium tracking-widest uppercase mb-4">
