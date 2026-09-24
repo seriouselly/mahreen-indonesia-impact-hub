@@ -35,17 +35,17 @@ export default function EcosystemSection({ setActiveCategory }) {
   };
 
   return (
-    <section id="explore" ref={sectionRef} className="relative py-16 px-4 sm:py-20">
-      <div className="max-w-7xl mx-auto">
+    <section id="explore" ref={sectionRef} className="relative py-16 px-4 sm:py-14">
+      <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16">
-          <p className="reveal text-[#c9a84c] text-md font-medium tracking-widest uppercase mb-4">
+          <p className="reveal visible text-[#c9a84c] text-md font-medium tracking-widest uppercase mb-4">
             Jelajahi Ekosistem Mahreen Indonesia
           </p>
-          <h2 className="reveal font-serif text-[clamp(2.2rem,5vw,3.8rem)] font-light text-white leading-tight mb-4">
+          <h2 className="reveal visible font-serif text-[clamp(2.2rem,5vw,3.8rem)] font-light text-white leading-tight mb-4">
             Temukan Ruang Berkaryamu
           </h2>
-          <p className="reveal text-white/50 text-base max-w-xl mx-auto leading-relaxed">
+          <p className="reveal visible text-white/50 text-base max-w-xl mx-auto leading-relaxed">
             Setiap orang punya cara berbeda untuk menciptakan dampak. Temukan
             ruang yang paling dekat dengan minatmu.
           </p>
