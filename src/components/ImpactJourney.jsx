@@ -63,7 +63,7 @@ export default function ImpactJourney() {
     <section
       id="impact-journey"
       ref={sectionRef}
-      className="relative py-16 px-4 sm:py-20 overflow-hidden cursor-default"
+      className="relative py-16 px-4 sm:py-14 overflow-hidden cursor-default"
     >
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-linear-to-b from-transparent to-white/8" />
 
