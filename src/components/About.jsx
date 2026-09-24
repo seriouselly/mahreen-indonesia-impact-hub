@@ -30,7 +30,11 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" ref={sectionRef} className="relative py-24 px-4">
+    <section
+      id="about"
+      ref={sectionRef}
+      className="relative py-16 px-4 sm:py-20"
+    >
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-gradient-to-b from-transparent to-white/8" />
 
       <div className="site-container">

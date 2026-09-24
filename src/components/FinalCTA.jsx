@@ -35,7 +35,7 @@ export default function FinalCTA() {
     <section
       id="FinalCTA"
       ref={sectionRef}
-      className="relative py-24 px-4 sm:py-28 text-center overflow-hidden"
+      className="relative py-16 px-4 sm:py-20 text-center overflow-hidden"
     >
       {/* Glow backdrop */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -50,7 +50,7 @@ export default function FinalCTA() {
       {/* Top line */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-linear-to-b from-transparent to-white/8" />
 
-      <div className="relative w-full max-w-3xl mx-auto rounded-[2rem] border border-white/8 bg-white/[0.025] px-6 py-14 sm:px-12 sm:py-16 shadow-[0_24px_100px_rgba(0,0,0,0.22)]">
+      <div className="relative w-full max-w-3xl mx-auto rounded-[2rem] border border-white/8 bg-white/[0.025] px-6 py-10 sm:px-12 sm:py-12 shadow-[0_24px_100px_rgba(0,0,0,0.22)]">
         <p className="reveal text-[#c9a84c] text-xs font-medium tracking-widest uppercase mb-6">
           Satu Ide. Satu Karya. Satu Dampak.
         </p>

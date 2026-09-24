@@ -35,7 +35,7 @@ export default function EcosystemSection({ setActiveCategory }) {
   };
 
   return (
-    <section id="explore" ref={sectionRef} className="relative py-24 px-4">
+    <section id="explore" ref={sectionRef} className="relative py-16 px-4 sm:py-20">
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16">

@@ -108,7 +108,11 @@ export default function ImpactQuiz({ setActiveCategory }) {
       : 0;
 
   return (
-    <section id="impact-path" ref={sectionRef} className="relative py-24 px-4">
+    <section
+      id="impact-path"
+      ref={sectionRef}
+      className="relative py-16 px-4 sm:py-20"
+    >
       {/* Subtle divider */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-linear-to-b from-transparent to-white/8" />
 
