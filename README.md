@@ -48,7 +48,7 @@ Buka URL yang ditampilkan Vite, biasanya `http://localhost:5173`.
 src/
 ├── .github/
 │      └── workflows
-│       └── deploy.yml         # Robot deploy
+│       	└── deploy.yml     # Robot deploy
 ├── assets/                    # Asset gambar dan logo
 ├── components/                # Komponen section dan UI
 │   ├── About.jsx
@@ -63,11 +63,11 @@ src/
 │   ├── OpportunityCard.jsx
 │   ├── OpportunityFinder.jsx
 │   └── OpportunityModal.jsx
-└── data/
-    └── opportunities.js       # Data kategori, opportunity, dan quiz
+├── data/
+│   └── opportunities.js       # Data kategori, opportunity, dan quiz
 ├── App.jsx                    # Komposisi halaman utama
 ├── index.css                  # Global reset, token, animasi, dan styling dasar
-├── main.jsx                   # Entry point React
+└── main.jsx                   # Entry point React
 ```
 
 ## Mengubah Data Opportunity
