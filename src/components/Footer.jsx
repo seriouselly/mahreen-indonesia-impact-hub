@@ -50,7 +50,7 @@ function handleNavClick(e, href) {
 export default function Footer() {
   return (
     <footer className="relative border-t border-white/8 bg-[#0a0a0b]">
-      <div className="site-container pt-8 pb-6">
+      <div className="site-container pt-2 pb-4 sm:pt-4 sm:pb-6">
         {/* Top grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-4">
           {/* Brand */}
@@ -60,7 +60,7 @@ export default function Footer() {
               alt="Mahreen Indonesia"
               className="h-10 w-auto object-contain mb-4"
             />
-            <p className="text-white/35 text-sm leading-relaxed max-w-xs">
+            <p className="text-white/40 text-sm leading-relaxed max-w-xs">
               Ekosistem yang menghubungkan anak muda dengan ruang untuk
               berkarya, berkembang, dan menciptakan dampak nyata.
             </p>
@@ -104,7 +104,7 @@ export default function Footer() {
             <h3 className="text-white/50 text-xs font-extrabold tracking-widest uppercase mb-5">
               Konteks
             </h3>
-            <p className="text-white/30 text-sm leading-relaxed mb-2">
+            <p className="text-white/40 text-sm leading-relaxed mb-2">
               Dibuat untuk Mahreen Indonesia Internship Batch 2 Creative
               Challenge.
             </p>
@@ -116,11 +116,11 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/5 pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-white/20 text-xs">
+          <p className="text-white/50 text-xs">
             © {new Date().getFullYear()} Mahreen Indonesia. Berkarya untuk
             Indonesia.
           </p>
-          <p className="text-white/15 text-xs italic">
+          <p className="text-white/30 text-xs italic">
             Mahreen Impact Hub — Internship Challenge Prototype
           </p>
         </div>

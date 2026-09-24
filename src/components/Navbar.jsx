@@ -100,7 +100,7 @@ export default function Navbar() {
             />
             <span
               className={`block w-5 h-[1.5px] bg-white/80 transition-all duration-300 ${
-                menuOpen ? "-rotate-45 -translate-y-[6.5px]" : ""
+                menuOpen ? "-rotate-45 translate-y-[6.5px]" : ""
               }`}
             />
           </button>
@@ -125,11 +125,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#impact-path"
-            onClick={(e) => handleNavClick(e, "#impact-path")}
+            href="#FinalCTA"
+            onClick={(e) => handleNavClick(e, "#FinalCTA")}
             className="mt-2 px-5 py-3 text-sm font-semibold text-center rounded-full bg-[#c9a84c] text-[#0a0a0b] hover:bg-[#d4b560] transition-colors"
           >
-            Start Exploring
+            Berikan Dampakmu
           </a>
         </div>
       </div>

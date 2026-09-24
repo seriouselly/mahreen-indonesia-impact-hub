@@ -2,7 +2,7 @@ export default function CategoryCard({ category, onSelect }) {
   return (
     <button
       onClick={() => onSelect(category.id)}
-      className="group relative text-left w-full min-h-60 p-6 rounded-2xl border border-white/8 bg-white/[0.025] hover:bg-white/[0.06] hover:border-white/20 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#38bdf8]"
+      className="group relative text-left w-full min-h-full p-4 rounded-2xl border border-white/8 bg-white/2.5 hover:bg-white/6 hover:border-white/20 transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#38bdf8]"
       aria-label={`Explore ${category.label}`}
     >
       {/* Accent glow on hover */}
@@ -37,7 +37,7 @@ export default function CategoryCard({ category, onSelect }) {
         className="flex items-center gap-2 text-md font-medium transition-all duration-300 group-hover:gap-5"
         style={{ color: category.accent }}
       >
-        <span>Explore</span>
+        <span>Jelajahi</span>
         <svg
           width="12"
           height="12"

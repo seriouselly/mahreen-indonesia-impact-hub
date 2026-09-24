@@ -43,26 +43,26 @@ export default function Hero() {
       </p>
 
       {/* Body copy */}
-      <p className="reveal visible text-white/50 text-lg max-w-lg leading-relaxed mb-10">
+      <p className="reveal visible text-white/50 text-lg max-w-lg leading-relaxed mb-6">
         Temukan ruang untuk belajar, berkarya, berkolaborasi, dan menciptakan
         dampak bersama Mahreen Indonesia.
       </p>
 
       {/* CTAs */}
       <div
-        className="reveal visible flex flex-col sm:flex-row gap-3 items-center"
+        className="reveal visible flex flex-col sm:flex-row gap-2 items-center"
         style={{ animationDelay: "0.4s" }}
       >
         <button
           onClick={() => handleScroll("#explore")}
-          className="px-8 py-3.5 rounded-full bg-[#c9a84c] text-[#0a0a0b] text-lg font-semibold hover:bg-[#d4b560] hover:scale-105 active:scale-95 transition-all duration-200 min-w-[11.25rem]"
+          className="px-8 py-3.5 rounded-full bg-[#c9a84c] text-[#0a0a0b] text-lg font-semibold hover:bg-[#d4b560] hover:scale-105 active:scale-95 transition-all duration-200 min-w-45"
         >
           Mulai Jelajahi Dampakmu
         </button>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce">
+      <div className="absolute bottom-1 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-white/80 text-md tracking-widest uppercase">
           Scroll
         </span>

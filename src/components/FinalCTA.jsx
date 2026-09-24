@@ -35,7 +35,7 @@ export default function FinalCTA() {
     <section
       id="FinalCTA"
       ref={sectionRef}
-      className="relative py-16 px-4 sm:py-20 text-center overflow-hidden"
+      className="relative py-16 px-4 sm:py-14 text-center overflow-hidden"
     >
       {/* Glow backdrop */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
